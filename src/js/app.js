@@ -38,7 +38,7 @@
         amount: o.values.length
     })).reduce((acc,curr)=>acc.amount>curr.amount?acc:curr);
     const result = dayWithMaxPurchases;
-    // console.log(result);
+     console.log(result);
 
 
 
